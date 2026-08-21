@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "rebalance_mod",
+    "name": "Rebalance Mod",
+    "authors": [ "joydriver" ],
+    "description": "A rebalance mod.",
+    "category": "misc_additions",
+    "dependencies": [ "bn" ]
+  }
+]

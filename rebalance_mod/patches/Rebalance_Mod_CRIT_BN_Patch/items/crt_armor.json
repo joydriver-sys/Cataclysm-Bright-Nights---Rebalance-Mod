@@ -1,0 +1,35 @@
+[
+ {
+    "id": "ds_monitor",
+    "type": "TOOL_ARMOR",
+    "name": "C.R.I.T. S-I G.E.A.R",
+    "description": "C.R.I.T. standard issue General Engineering Assistance Rig.  Plugged into your spinal cord, this device improves your overall physique and provides basic information on your surroundings.",
+    "weight": "500 g",
+    "volume": "0 ml",
+    "price": "250 kUSD",
+    "price_postapoc": "250 USD",
+    "to_hit": -3,
+    "material": [ "plastic", "steel" ],
+    "symbol": "[",
+    "color": "light_green",
+    "coverage": 0,
+    "encumbrance": 0,
+    "warmth": 0,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "conditions": [ "WORN" ],
+          "values": [
+            { "value": "STRENGTH", "add": 1 },
+            { "value": "DEXTERITY", "add": 1 },
+            { "value": "INTELLIGENCE", "add": 1 },
+            { "value": "PERCEPTION", "add": 1 }
+          ]
+        }
+      ]
+    },
+    "material_thickness": 10,
+    "environmental_protection": 0,
+    "flags": [ "ONLY_ONE", "TRADER_AVOID", "BELTED", "NO_TAKEOFF" ]
+  }
+]

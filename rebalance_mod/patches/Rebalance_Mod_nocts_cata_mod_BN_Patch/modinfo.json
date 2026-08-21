@@ -1,0 +1,14 @@
+{
+    "id":  "Rebalance_Mod_Cata++_Patch",
+    "name":  "Rebalance Mod: Cata++ Patch",
+    "authors":  [
+                    "joydriver"
+                ],
+    "description":  "A rebalance patch for the Cata++ mod.",
+    "type":  "MOD_INFO",
+    "dependencies":  [
+                         "bn",
+                         "Cata++"
+                     ],
+    "category":  "misc_additions"
+}

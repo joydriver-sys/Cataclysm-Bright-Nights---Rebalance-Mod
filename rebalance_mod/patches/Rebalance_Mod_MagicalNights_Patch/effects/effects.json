@@ -1,0 +1,86 @@
+[
+  {
+    "type": "effect_type",
+    "id": "haste",
+    "name": [ "Hasted" ],
+    "desc": [ "Your speed is boosted enormously." ],
+    "apply_message": "Your speed is boosted to superhuman levels!",
+    "remove_message": "You return to your normal speed.",
+    "rating": "good",
+    "removes_effects": [ "magic_slowed" ],
+    "base_mods": { "dex_mod": [ 1 ], "speed_mod": [ 50 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "synaptic_stim",
+    "name": [ "Synaptic Stimulation" ],
+    "desc": [ "Your mental processing is increased." ],
+    "apply_message": "Your mind accelerates.",
+    "remove_message": "Your mind returns to normal speed.",
+    "rating": "good",
+    "base_mods": { "dex_mod": [ 2 ], "int_mod": [ 2 ], "speed_mod": [ 5 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "ogres_strength",
+    "name": [ "Ogre's Strength" ],
+    "desc": [ "You have the strength of an Ogre!" ],
+    "apply_message": "You feel strong!",
+    "remove_message": "Your strength deflates.",
+    "rating": "good",
+    "base_mods": { "str_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "eagles_sight",
+    "name": [ "Eagle's Sight" ],
+    "desc": [ "You have the perception of an Eagle!" ],
+    "apply_message": "You notice small details!",
+    "remove_message": "Your vision returns to normal.",
+    "rating": "good",
+    "base_mods": { "per_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "cats_grace",
+    "name": [ "Cat's Grace" ],
+    "desc": [ "You have the dexterity of a cat!" ],
+    "apply_message": "Your reflexes are heightened!",
+    "remove_message": "Your reflexes return to normal.",
+    "rating": "good",
+    "base_mods": { "dex_mod": [ 2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "foxs_cunning",
+    "name": [ "Fox's Cunning" ],
+    "desc": [ "You have the cunning of a Fox!" ],
+    "apply_message": "Your intelligence is heightened!",
+    "remove_message": "Your intelligence returns to normal.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 2 ] }
+  }, 
+  {
+    "type": "effect_type",
+    "id": "bless",
+    "name": [ "Blessed" ],
+    "desc": [ "You are filled with energy that improves everything you do." ],
+    "apply_message": "You are filled with energy that improves everything you do!",
+    "remove_message": "Your energy fades.",
+    "rating": "good",
+    "base_mods": { "per_mod": [ 1 ], "dex_mod": [ 1 ], "str_mod": [ 1, 2 ], "speed_mod": [ 10 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "bio_boost",
+    "name": [ "Grotesque Enhancement" ],
+    "desc": [ "Your body ripples with writhing alien muscles, your limbs lengthen, and your eyes glow with a faint green." ],
+    "apply_message": "Your body ripples with writhing alien muscles, your limbs lengthen, and your eyes glow with a faint green.",
+    "remove_message": "Your body rapidly returns to normal.",
+    "rating": "good",
+    "max_intensity": 2,
+    "int_add_val": 1,
+    "base_mods": { "per_mod": [ 1, 2 ], "dex_mod": [ 1, 2 ], "str_mod": [ 1, 2 ], "speed_mod": [ 5, 10 ] },
+    "scaling_mods": { "per_mod": [ 1, 2 ], "dex_mod": [ 1, 2 ], "str_mod": [ 1, 2 ], "speed_mod": [ 5, 10 ] }
+  }
+]

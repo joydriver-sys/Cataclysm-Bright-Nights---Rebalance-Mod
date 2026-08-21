@@ -1,0 +1,14 @@
+{
+    "id":  "Rebalance_Mod_CRIT_BN_Patch",
+    "name":  "Rebalance Mod: CRIT_BN Patch",
+    "authors":  [
+                    "joydriver"
+                ],
+    "description":  "A rebalance patch for the CRIT mod.",
+    "type":  "MOD_INFO",
+    "dependencies":  [
+                         "bn",
+                         "crt_expansion"
+                     ],
+    "category":  "misc_additions"
+}

@@ -1,0 +1,1115 @@
+[
+    {
+        "id":  "tarkov_armor_6b13",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "6B13 assault armor"
+                 },
+        "description":  "A heavy Russian assault vest featuring ceramic plates. High protection, but restrictive and hard to repair.",
+        "weight":  "8500 g",
+        "volume":  "7 L",
+        "price":  "450 USD",
+        "price_postapoc":  "450 USD",
+        "to_hit":  -4,
+        "bashing":  8,
+        "material":  [
+                         "kevlar",
+                         "ceramic"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "kevlar",
+        "color":  "green",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  85,
+        "encumbrance":  30,
+        "storage":  "1500 ml",
+        "warmth":  25,
+        "material_thickness":  9,
+        "resistance":  {
+                           "bullet":  35
+                       },
+        "flags":  [
+                      "OUTER",
+                      "NO_REPAIR"
+                  ]
+    },
+    {
+        "id":  "tarkov_armor_trooper",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "Trooper plate carrier"
+                 },
+        "description":  "A modern, lightweight plate carrier. Protects the vitals reliably without restricting your arms.",
+        "weight":  "5 kg",
+        "volume":  "4 L",
+        "price":  "800 USD",
+        "price_postapoc":  "800 USD",
+        "to_hit":  -2,
+        "bashing":  5,
+        "material":  [
+                         "kevlar",
+                         "hardsteel"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "dark_gray",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  75,
+        "encumbrance":  15,
+        "storage":  "2 L",
+        "warmth":  15,
+        "material_thickness":  10,
+        "resistance":  {
+                           "bullet":  45
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY",
+                      "ALLOWS_WINGS"
+                  ]
+    },
+    {
+        "id":  "tarkov_armor_gzhel",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "BZh-T Gzhel-K"
+                 },
+        "description":  "A heavy ceramic assault vest. It will stop almost any armor-piercing round once or twice, but shatters completely shortly after. Purely disposable protection.",
+        "weight":  "9500 g",
+        "volume":  "8 L",
+        "price":  "850 USD",
+        "price_postapoc":  "850 USD",
+        "to_hit":  -4,
+        "bashing":  8,
+        "material":  [
+                         "kevlar",
+                         "ceramic"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "kevlar",
+        "color":  "light_gray",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  85,
+        "encumbrance":  35,
+        "warmth":  25,
+        "material_thickness":  11,
+        "resistance":  {
+                           "bullet":  58
+                       },
+        "flags":  [
+                      "OUTER",
+                      "NO_REPAIR"
+                  ]
+    },
+    {
+        "id":  "tarkov_armor_avs",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "AVS armored vest"
+                 },
+        "description":  "Adaptive Vest System. A highly modular armored rig that offers great protection and significant storage for magazines.",
+        "weight":  "7 kg",
+        "volume":  "8500 ml",
+        "price":  "1100 USD",
+        "price_postapoc":  "1100 USD",
+        "to_hit":  -3,
+        "bashing":  6,
+        "material":  [
+                         "kevlar",
+                         "ceramic"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "brown",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  80,
+        "encumbrance":  25,
+        "storage":  "10 L",
+        "warmth":  20,
+        "material_thickness":  10,
+        "resistance":  {
+                           "bullet":  45
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  8,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  50,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "NO_REPAIR"
+                  ]
+    },
+    {
+        "id":  "tarkov_armor_iotv",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "IOTV Gen4 assault"
+                 },
+        "description":  "A comprehensive ballistic vest offering extensive coverage over the torso, neck, and groin. Very protective, very heavy.",
+        "weight":  "12 kg",
+        "volume":  "12 L",
+        "price":  "1300 USD",
+        "price_postapoc":  "1300 USD",
+        "to_hit":  -4,
+        "bashing":  8,
+        "material":  [
+                         "kevlar",
+                         "hardsteel"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "green",
+        "covers":  [
+                       "torso",
+                       "arms"
+                   ],
+        "coverage":  95,
+        "encumbrance":  40,
+        "storage":  "4 L",
+        "warmth":  30,
+        "material_thickness":  10,
+        "resistance":  {
+                           "bullet":  50
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_armor_6b13_killa",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "6B13 M assault armor"
+                 },
+        "description":  "A heavily modified version of the standard 6B13, featuring ultra-high-molecular-weight polyethylene plates instead of ceramic. Unbelievably durable, repairable, and painted with three white stripes.",
+        "weight":  "7500 g",
+        "volume":  "7 L",
+        "price":  "1800 USD",
+        "price_postapoc":  "1800 USD",
+        "to_hit":  -3,
+        "bashing":  6,
+        "material":  [
+                         "kevlar",
+                         "superalloy"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "kevlar",
+        "color":  "green",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  85,
+        "encumbrance":  25,
+        "storage":  "2 L",
+        "warmth":  25,
+        "material_thickness":  11,
+        "resistance":  {
+                           "bullet":  55
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_cpc_mod2",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "Ars Arma CPC mod.2"
+                 },
+        "description":  "A high-end plate carrier integrated with a tactical rig. Offers top-tier polyethylene ballistic protection and exceptional ergonomics for operators.",
+        "weight":  "5 kg",
+        "volume":  "5 L",
+        "price":  "1900 USD",
+        "price_postapoc":  "1900 USD",
+        "to_hit":  -2,
+        "bashing":  5,
+        "material":  [
+                         "kevlar",
+                         "superalloy"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "brown",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  75,
+        "encumbrance":  15,
+        "warmth":  15,
+        "material_thickness":  11,
+        "resistance":  {
+                           "bullet":  55
+                       },
+        "storage":  "8 L",
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  8,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  45,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_armor_slick",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "Slick plate carrier"
+                 },
+        "description":  "A minimalist plate carrier utilizing ultra-high-molecular-weight polyethylene plates. Extreme protection for the vitals with almost no movement penalty, but leaves your sides exposed.",
+        "weight":  "4500 g",
+        "volume":  "3500 ml",
+        "price":  "2000 USD",
+        "price_postapoc":  "2000 USD",
+        "to_hit":  -1,
+        "bashing":  4,
+        "material":  [
+                         "kevlar",
+                         "superalloy"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "black",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  65,
+        "encumbrance":  8,
+        "warmth":  10,
+        "material_thickness":  12,
+        "resistance":  {
+                           "bullet":  60
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY",
+                      "ALLOWS_WINGS"
+                  ]
+    },
+    {
+        "id":  "tarkov_armor_zhuk6a",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "Zhuk-6a heavy armor"
+                 },
+        "description":  "The absolute peak of ceramic plate protection. Thick, heavy, and impenetrable to all but the most specialized munitions. Once it breaks, it\u0027s garbage.",
+        "weight":  "11 kg",
+        "volume":  "9 L",
+        "price":  "2200 USD",
+        "price_postapoc":  "2200 USD",
+        "to_hit":  -4,
+        "bashing":  10,
+        "material":  [
+                         "kevlar",
+                         "ceramic"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "kevlar",
+        "color":  "black",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  90,
+        "encumbrance":  40,
+        "warmth":  30,
+        "material_thickness":  14,
+        "resistance":  {
+                           "bullet":  73
+                       },
+        "flags":  [
+                      "OUTER",
+                      "NO_REPAIR"
+                  ]
+    },
+    {
+        "id":  "tarkov_armor_hexgrid",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "Hexgrid plate carrier"
+                 },
+        "description":  "A state-of-the-art plate carrier featuring a hexagonal grid structure. Offers the pinnacle of ballistic protection while being incredibly light and unrestrictive.",
+        "weight":  "4 kg",
+        "volume":  "3 L",
+        "price":  "2500 USD",
+        "price_postapoc":  "2500 USD",
+        "to_hit":  -1,
+        "bashing":  4,
+        "material":  [
+                         "kevlar",
+                         "superalloy"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "brown",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  65,
+        "encumbrance":  5,
+        "warmth":  10,
+        "material_thickness":  14,
+        "resistance":  {
+                           "bullet":  70
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY",
+                      "ALLOWS_WINGS"
+                  ]
+    },
+    {
+        "id":  "tarkov_armor_zabralo",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "6B43 Zabralo-Sh"
+                 },
+        "description":  "An absolute behemoth of an assault armor set. You are essentially a walking tank. Your mobility is completely ruined, but almost nothing short of an anti-materiel rifle will pierce your chest.",
+        "weight":  "18 kg",
+        "volume":  "18 L",
+        "price":  "3000 USD",
+        "price_postapoc":  "3000 USD",
+        "to_hit":  -6,
+        "bashing":  12,
+        "material":  [
+                         "kevlar",
+                         "hardsteel"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "armor_trench",
+        "color":  "green",
+        "covers":  [
+                       "torso",
+                       "arms",
+                       "legs"
+                   ],
+        "coverage":  100,
+        "encumbrance":  65,
+        "storage":  "3 L",
+        "warmth":  45,
+        "material_thickness":  15,
+        "resistance":  {
+                           "bullet":  75
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_6b5_16",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "6B5-16 Zh-86 \u0027Uley\u0027 armored rig"
+                 },
+        "description":  "An old Soviet armored chest rig. Offers basic titanium plate protection and minimal storage. A heavy, outdated relic for desperate scavengers.",
+        "weight":  "7100 g",
+        "volume":  "6 L",
+        "price":  "200 USD",
+        "price_postapoc":  "200 USD",
+        "to_hit":  -3,
+        "bashing":  5,
+        "material":  [
+                         "kevlar",
+                         "steel"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "green",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  80,
+        "encumbrance":  20,
+        "storage":  "4 L",
+        "warmth":  25,
+        "material_thickness":  6,
+        "resistance":  {
+                           "bullet":  30
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  4,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1000 ml",
+                           "draw_cost":  55,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_6b3tm",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "6B3TM-01M armored rig"
+                 },
+        "description":  "A classic Russian flak jacket combined with titanium armor plates and magazine pouches. Extremely heavy and restrictive, but surprisingly durable.",
+        "weight":  "8200 g",
+        "volume":  "7 L",
+        "price":  "350 USD",
+        "price_postapoc":  "350 USD",
+        "to_hit":  -3,
+        "bashing":  6,
+        "material":  [
+                         "kevlar",
+                         "steel"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "green",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  85,
+        "encumbrance":  25,
+        "storage":  "5 L",
+        "warmth":  25,
+        "material_thickness":  8,
+        "resistance":  {
+                           "bullet":  40
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  5,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1000 ml",
+                           "draw_cost":  55,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_6b5_15",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "6B5-15 Zh-86 \u0027Uley\u0027 armored rig"
+                 },
+        "description":  "The ceramic plate variant of the Uley rig. Better ballistic protection than its titanium counterpart, but significantly harder to repair once shattered.",
+        "weight":  "7100 g",
+        "volume":  "6500 ml",
+        "price":  "400 USD",
+        "price_postapoc":  "400 USD",
+        "to_hit":  -3,
+        "bashing":  5,
+        "material":  [
+                         "kevlar",
+                         "ceramic"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "brown",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  85,
+        "encumbrance":  22,
+        "storage":  "4 L",
+        "warmth":  25,
+        "material_thickness":  8,
+        "resistance":  {
+                           "bullet":  45
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  4,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1000 ml",
+                           "draw_cost":  55,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "NO_REPAIR"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_ana_m1",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "ANA Tactical M1 armored rig"
+                 },
+        "description":  "A robust, steel-plated tactical rig. Favored by PMCs for its balance of high durability, decent protection, and massive carrying capacity.",
+        "weight":  "7300 g",
+        "volume":  "7 L",
+        "price":  "750 USD",
+        "price_postapoc":  "750 USD",
+        "to_hit":  -3,
+        "bashing":  6,
+        "material":  [
+                         "kevlar",
+                         "steel"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "green",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  80,
+        "encumbrance":  22,
+        "storage":  "8 L",
+        "warmth":  20,
+        "material_thickness":  9,
+        "resistance":  {
+                           "bullet":  48
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  8,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  50,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_ana_m2",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "ANA Tactical M2 armored rig"
+                 },
+        "description":  "An upgraded version of the M1 rig with slightly different pouch configurations. Heavy steel plates make it a reliable workhorse in extended firefights.",
+        "weight":  "7300 g",
+        "volume":  "7 L",
+        "price":  "800 USD",
+        "price_postapoc":  "800 USD",
+        "to_hit":  -3,
+        "bashing":  6,
+        "material":  [
+                         "kevlar",
+                         "steel"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "green",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  80,
+        "encumbrance":  23,
+        "storage":  "9 L",
+        "warmth":  20,
+        "material_thickness":  9,
+        "resistance":  {
+                           "bullet":  48
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  9,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  50,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_tv110",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "Wartech TV-110 armored rig"
+                 },
+        "description":  "A heavy-duty chest rig with integrated steel armor plates. Excellent mid-tier protection and extensive carrying capacity.",
+        "weight":  "6500 g",
+        "volume":  "8 L",
+        "price":  "950 USD",
+        "price_postapoc":  "950 USD",
+        "to_hit":  -3,
+        "bashing":  6,
+        "material":  [
+                         "kevlar",
+                         "steel"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "green",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  80,
+        "encumbrance":  20,
+        "storage":  "10 L",
+        "warmth":  20,
+        "material_thickness":  9,
+        "resistance":  {
+                           "bullet":  48
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  10,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  50,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_mmac",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "Eagle Industries MMAC plate carrier"
+                 },
+        "description":  "Multi-Mission Armor Carrier. A lightweight polyethylene rig favored by western operators. Highly ergonomic, but carrying capacity is strictly tactical.",
+        "weight":  "5500 g",
+        "volume":  "5 L",
+        "price":  "1050 USD",
+        "price_postapoc":  "1050 USD",
+        "to_hit":  -2,
+        "bashing":  4,
+        "material":  [
+                         "kevlar",
+                         "superalloy"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "green",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  75,
+        "encumbrance":  12,
+        "storage":  "5 L",
+        "warmth":  15,
+        "material_thickness":  9,
+        "resistance":  {
+                           "bullet":  48
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  5,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1000 ml",
+                           "draw_cost":  45,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_tactec",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "5.11 Tactec plate carrier"
+                 },
+        "description":  "An ultra-lightweight polyethylene carrier protecting only the critical thorax area. Extremely mobile, but leaves your stomach entirely exposed.",
+        "weight":  "5500 g",
+        "volume":  "5 L",
+        "price":  "1100 USD",
+        "price_postapoc":  "1100 USD",
+        "to_hit":  -1,
+        "bashing":  4,
+        "material":  [
+                         "kevlar",
+                         "superalloy"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "black",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  65,
+        "encumbrance":  10,
+        "storage":  "6 L",
+        "warmth":  15,
+        "material_thickness":  10,
+        "resistance":  {
+                           "bullet":  48
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  6,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1000 ml",
+                           "draw_cost":  45,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_a18",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "Ars Arma A18 Skanda"
+                 },
+        "description":  "A high-quality Russian plate carrier loaded with polyethylene plates. Fantastic protection-to-weight ratio and abundant storage space.",
+        "weight":  "6500 g",
+        "volume":  "7 L",
+        "price":  "1200 USD",
+        "price_postapoc":  "1200 USD",
+        "to_hit":  -2,
+        "bashing":  5,
+        "material":  [
+                         "kevlar",
+                         "superalloy"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "green",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  80,
+        "encumbrance":  16,
+        "storage":  "9 L",
+        "warmth":  15,
+        "material_thickness":  10,
+        "resistance":  {
+                           "bullet":  48
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  9,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  45,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_avs",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "Crye Precision AVS"
+                 },
+        "description":  "Adaptive Vest System. A highly modular armored rig loaded with heavy ceramic plates. Excellent protection and massive storage capacity.",
+        "weight":  "7000 g",
+        "volume":  "8 L",
+        "price":  "1250 USD",
+        "price_postapoc":  "1250 USD",
+        "to_hit":  -3,
+        "bashing":  6,
+        "material":  [
+                         "kevlar",
+                         "ceramic"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "brown",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  80,
+        "encumbrance":  25,
+        "storage":  "10 L",
+        "warmth":  20,
+        "material_thickness":  10,
+        "resistance":  {
+                           "bullet":  50
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  10,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  50,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "NO_REPAIR"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_osprey_assault",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "CQC Osprey MK4A (Assault)"
+                 },
+        "description":  "British modular body armor in the assault configuration. Features extended arm coverage and thick polyethylene plates.",
+        "weight":  "8000 g",
+        "volume":  "10 L",
+        "price":  "1400 USD",
+        "price_postapoc":  "1400 USD",
+        "to_hit":  -3,
+        "bashing":  6,
+        "material":  [
+                         "kevlar",
+                         "superalloy"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "yellow",
+        "covers":  [
+                       "torso",
+                       "arms"
+                   ],
+        "coverage":  90,
+        "encumbrance":  28,
+        "storage":  "8 L",
+        "warmth":  25,
+        "material_thickness":  10,
+        "resistance":  {
+                           "bullet":  50
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  8,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  55,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_cpc_mod2",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "Ars Arma CPC MOD.2"
+                 },
+        "description":  "A top-tier heavy plate carrier integrated with a tactical rig. Offers exceptional high-level polyethylene ballistic protection and ergonomics for operators.",
+        "weight":  "5000 g",
+        "volume":  "5 L",
+        "price":  "2100 USD",
+        "price_postapoc":  "2100 USD",
+        "to_hit":  -2,
+        "bashing":  5,
+        "material":  [
+                         "kevlar",
+                         "superalloy"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "brown",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  75,
+        "encumbrance":  15,
+        "storage":  "8 L",
+        "warmth":  15,
+        "material_thickness":  11,
+        "resistance":  {
+                           "bullet":  58
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  8,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  45,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "STURDY"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_avs_mbav",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "Crye Precision AVS MBAV"
+                 },
+        "description":  "The ultimate configuration of the AVS system, loaded with thick, high-density ceramic plates. Offers supreme stopping power with massive modular storage.",
+        "weight":  "8500 g",
+        "volume":  "9 L",
+        "price":  "2400 USD",
+        "price_postapoc":  "2400 USD",
+        "to_hit":  -4,
+        "bashing":  7,
+        "material":  [
+                         "kevlar",
+                         "ceramic"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "modularvestkevlar",
+        "color":  "green",
+        "covers":  [
+                       "torso"
+                   ],
+        "coverage":  85,
+        "encumbrance":  30,
+        "storage":  "10 L",
+        "warmth":  25,
+        "material_thickness":  12,
+        "resistance":  {
+                           "bullet":  60
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  10,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  50,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "NO_REPAIR"
+                  ]
+    },
+    {
+        "id":  "tarkov_rig_osprey_protection",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "CQC Osprey MK4A (Protection)"
+                 },
+        "description":  "The absolute juggernaut configuration of the Osprey system. Features full neck and arm soft armor combined with heavy composite plates. Mobility is dead, but so are your enemies.",
+        "weight":  "11000 g",
+        "volume":  "12 L",
+        "price":  "2600 USD",
+        "price_postapoc":  "2600 USD",
+        "to_hit":  -5,
+        "bashing":  9,
+        "material":  [
+                         "kevlar",
+                         "ceramic",
+                         "superalloy"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "armor_trench",
+        "color":  "yellow",
+        "covers":  [
+                       "torso",
+                       "arms"
+                   ],
+        "coverage":  95,
+        "encumbrance":  45,
+        "storage":  "10 L",
+        "warmth":  35,
+        "material_thickness":  12,
+        "resistance":  {
+                           "bullet":  65
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash ammo or magazines",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  10,
+                           "min_volume":  "100 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  60,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "flags":  [
+                      "OUTER",
+                      "NO_REPAIR"
+                  ]
+    }
+]

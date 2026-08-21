@@ -1,0 +1,831 @@
+[
+    {
+        "id":  "surv_suit",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "survivor\u0027s scout suit"
+                 },
+        "description":  "A home-made suit built to live off the land.  Comes with ample storage, fur lining, environmental and physical protection, a built-in watch, and a makeshift sheath ring.  It requires a separate gas mask for full protection.",
+        "weight":  "12840 g",
+        "volume":  "12500 ml",
+        "price":  "1800 USD",
+        "price_postapoc":  "70 USD",
+        "to_hit":  -3,
+        "bashing":  6,
+        "phase":  "solid",
+        "material":  [
+                         "kevlar"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "anbc_suit",
+        "color":  "brown",
+        "covers":  [
+                       "legs",
+                       "torso",
+                       "arms",
+                       "hands",
+                       "feet",
+                       "head"
+                   ],
+        "coverage":  100,
+        "encumbrance":  35,
+        "storage":  "30 L",
+        "warmth":  25,
+        "material_thickness":  5,
+        "environmental_protection":  15,
+        "valid_mods":  [
+                           "steel_padded",
+                           "hard_steel_padded,",
+                           "alloy_padded"
+                       ],
+        "resistance":  {
+                           "bullet":  15
+                       },
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Sheath knife/sword",
+                           "holster_msg":  "You sheath your %s",
+                           "min_volume":  "500 ml",
+                           "max_volume":  "2500 ml",
+                           "draw_cost":  80,
+                           "multi":  2,
+                           "flags":  [
+                                         "SHEATH_KNIFE",
+                                         "SHEATH_SWORD",
+                                         "BELT_CLIP"
+                                     ],
+                           "//":  "Allows most blades to be sheathed."
+                       },
+        "flags":  [
+                      "VARSIZE",
+                      "OVERSIZE",
+                      "WATERPROOF",
+                      "RAINPROOF",
+                      "RAD_RESIST",
+                      "GAS_PROOF",
+                      "STURDY",
+                      "ALLOWS_NATURAL_ATTACKS",
+                      "WATCH",
+                      "NONCONDUCTIVE",
+                      "ALARMCLOCK",
+                      "ALLOWS_HOOVES"
+                  ]
+    },
+    {
+        "id":  "surv_armor_suit",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "survivor\u0027s armored scout suit"
+                 },
+        "//":  "Harder to repair but more durable.",
+        "description":  "A home-made suit built to live off the land.  Comes with ample storage, warm fur lining, environmental and physical protection, a built in watch, and a makeshift sheath ring.  The suit is carefully crafted of Kevlar fabric and reinforced with metal.  It requires a separate gas mask for full protection.",
+        "weight":  "26360 g",
+        "volume":  "12500 ml",
+        "price":  "1800 USD",
+        "price_postapoc":  "90 USD",
+        "to_hit":  -3,
+        "bashing":  6,
+        "phase":  "solid",
+        "material":  [
+                         "kevlar",
+                         "steel"
+                     ],
+        "symbol":  "[",
+        "looks_like":  "anbc_suit",
+        "color":  "brown",
+        "covers":  [
+                       "legs",
+                       "torso",
+                       "arms",
+                       "hands",
+                       "feet",
+                       "head"
+                   ],
+        "coverage":  100,
+        "encumbrance":  40,
+        "storage":  "30 L",
+        "warmth":  25,
+        "material_thickness":  6,
+        "environmental_protection":  15,
+        "resistance":  {
+                           "bullet":  18
+                       },
+        "valid_mods":  [
+                           "steel_padded",
+                           "hard_steel_padded,",
+                           "alloy_padded"
+                       ],
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Sheath knife/sword",
+                           "holster_msg":  "You sheath your %s",
+                           "min_volume":  "500 ml",
+                           "max_volume":  "2500 ml",
+                           "draw_cost":  80,
+                           "multi":  2,
+                           "flags":  [
+                                         "SHEATH_KNIFE",
+                                         "SHEATH_SWORD",
+                                         "BELT_CLIP"
+                                     ]
+                       },
+        "flags":  [
+                      "VARSIZE",
+                      "OVERSIZE",
+                      "WATERPROOF",
+                      "RAINPROOF",
+                      "RAD_RESIST",
+                      "GAS_PROOF",
+                      "STURDY",
+                      "ALLOWS_NATURAL_ATTACKS",
+                      "WATCH",
+                      "NONCONDUCTIVE",
+                      "ALARMCLOCK",
+                      "ALLOWS_HOOVES"
+                  ]
+    },
+    {
+        "id":  "armor_lightplate_surv",
+        "copy-from":  "armor_lightplate",
+        "//":  "No storage or other amenities, but a modest increase in protection relative to the added encumbrance.",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "survivor plate armor"
+                 },
+        "description":  "A suit of Gothic plate armor modified with kevlar and leather, altered to better protect the gaps between plates and provide better protection from the elements, while also increasing ballistic resistance.",
+        "weight":  "12100 g",
+        "price":  "900 USD",
+        "price_postapoc":  "130 USD",
+        "material":  [
+                         "steel",
+                         "kevlar"
+                     ],
+        "coverage":  100,
+        "environmental_protection":  5,
+        "resistance":  {
+                           "bullet":  20
+                       },
+        "relative":  {
+                         "material_thickness":  2,
+                         "warmth":  10,
+                         "encumbrance":  5
+                     },
+        "extend":  {
+                       "flags":  [
+                                     "WATERPROOF"
+                                 ]
+                   }
+    },
+    {
+        "id":  "cuirass_lightplate_surv",
+        "copy-from":  "cuirass_lightplate",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "survivor cuirass",
+                     "str_pl":  "survivor cuirasses"
+                 },
+        "description":  "A medieval steel breastplate, modified with kevlar and leather to better protect from the elements and improve ballistic resistance.",
+        "weight":  "4620 g",
+        "price":  "300 USD",
+        "price_postapoc":  "45 USD",
+        "material":  [
+                         "steel",
+                         "kevlar"
+                     ],
+        "coverage":  100,
+        "environmental_protection":  5,
+        "resistance":  {
+                           "bullet":  20
+                       },
+        "relative":  {
+                         "material_thickness":  2,
+                         "warmth":  10,
+                         "encumbrance":  5
+                     },
+        "extend":  {
+                       "flags":  [
+                                     "WATERPROOF"
+                                 ]
+                   }
+    },
+    {
+        "id":  "armguard_lightplate_surv",
+        "copy-from":  "armguard_lightplate",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "survivor steel arm guards",
+                     "str_pl":  "survivor steel arm guards"
+                 },
+        "description":  "A full assembly of medieval arm protection.  Rerebraces, couters, and vambraces, subsequently modified with kevlar and leather to better protect the joints.",
+        "weight":  "2992 g",
+        "price":  "300 USD",
+        "price_postapoc":  "130 USD",
+        "material":  [
+                         "steel",
+                         "kevlar"
+                     ],
+        "coverage":  100,
+        "environmental_protection":  5,
+        "resistance":  {
+                           "bullet":  20
+                       },
+        "relative":  {
+                         "material_thickness":  2,
+                         "warmth":  10,
+                         "encumbrance":  5
+                     },
+        "extend":  {
+                       "flags":  [
+                                     "WATERPROOF"
+                                 ]
+                   }
+    },
+    {
+        "id":  "legguard_lightplate_surv",
+        "copy-from":  "legguard_lightplate",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "survivor steel leg guards",
+                     "str_pl":  "survivor steel leg guards"
+                 },
+        "description":  "A full assembly of medieval leg protection.  Cuisses, poleyns, and greaves, subsequently modified with kevlar and leather to better protect the joints.",
+        "weight":  "4488 g",
+        "price":  "300 USD",
+        "price_postapoc":  "45 USD",
+        "material":  [
+                         "steel",
+                         "kevlar"
+                     ],
+        "coverage":  100,
+        "environmental_protection":  5,
+        "resistance":  {
+                           "bullet":  20
+                       },
+        "relative":  {
+                         "material_thickness":  2,
+                         "warmth":  10,
+                         "encumbrance":  5
+                     },
+        "extend":  {
+                       "flags":  [
+                                     "WATERPROOF"
+                                 ]
+                   }
+    },
+    {
+        "id":  "helmet_plate_surv",
+        "copy-from":  "helmet_plate",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "survivor great helm"
+                 },
+        "description":  "A medieval helmet that has been heavily modified, widening the eye slits and breaths, with ballistic lenses and a kevlar aventail helping make up for the increased vulnerability.",
+        "weight":  "2395 g",
+        "price":  "500 USD",
+        "price_postapoc":  "50 USD",
+        "material":  [
+                         "steel",
+                         "kevlar"
+                     ],
+        "environmental_protection":  5,
+        "resistance":  {
+                           "bullet":  23
+                       },
+        "//":  "Lower encumbrance instead of raising it in this case",
+        "relative":  {
+                         "material_thickness":  3,
+                         "warmth":  10,
+                         "encumbrance":  -5
+                     },
+        "qualities":  [
+                          [
+                              "GLARE",
+                              1
+                          ]
+                      ],
+        "extend":  {
+                       "flags":  [
+                                     "WATERPROOF",
+                                     "SUN_GLASSES"
+                                 ]
+                   }
+    },
+    {
+        "id":  "gloves_plate_surv",
+        "copy-from":  "gloves_plate",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "pair of survivor armored gauntlets",
+                     "str_pl":  "pairs of survivor armored gauntlets"
+                 },
+        "description":  "A heavy set of medieval gauntlets, modified with kevlar reinforcements to increase protection from the elements.",
+        "weight":  "1080 g",
+        "price":  "500 USD",
+        "price_postapoc":  "50 USD",
+        "material":  [
+                         "steel",
+                         "leather",
+                         "kevlar"
+                     ],
+        "environmental_protection":  5,
+        "resistance":  {
+                           "bullet":  18
+                       },
+        "relative":  {
+                         "material_thickness":  2,
+                         "warmth":  10,
+                         "encumbrance":  5
+                     },
+        "extend":  {
+                       "flags":  [
+                                     "WATERPROOF"
+                                 ]
+                   }
+    },
+    {
+        "id":  "boots_plate_surv",
+        "copy-from":  "boots_plate",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "pair of survivor armored boots",
+                     "str_pl":  "pairs of survivor armored boots"
+                 },
+        "description":  "A heavy set of armor plated boots, modified with kevlar to better protect from the elements.",
+        "weight":  "2080 g",
+        "price":  "600 USD",
+        "price_postapoc":  "50 USD",
+        "material":  [
+                         "steel",
+                         "leather",
+                         "kevlar"
+                     ],
+        "environmental_protection":  5,
+        "resistance":  {
+                           "bullet":  18
+                       },
+        "relative":  {
+                         "material_thickness":  2,
+                         "warmth":  10,
+                         "encumbrance":  5
+                     }
+    },
+    {
+        "id":  "lmil_armor",
+        "type":  "ARMOR",
+        "name":  {
+                     "str_sp":  "light sentinel armor"
+                 },
+        "description":  "A fairly light full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from a fabric bodysuit with advanced composite plates, it is relatively easy to move in but protection is minimal, only rated for fragmentation and pistol-caliber rounds up to .357 Magnum.  It also has two adjustable pouches for various sizes of magazines.",
+        "weight":  "9045 g",
+        "volume":  "10250 ml",
+        "price":  "1600 USD",
+        "price_postapoc":  "16 USD",
+        "to_hit":  -3,
+        "bashing":  5,
+        "material":  [
+                         "superalloy",
+                         "kevlar",
+                         "cotton"
+                     ],
+        "resistance":  {
+                           "bash":  5,
+                           "cut":  10,
+                           "bullet":  25,
+                           "acid":  5,
+                           "heat":  10
+                       },
+        "symbol":  "[",
+        "color":  "dark_gray",
+        "looks_like":  "power_armor_light",
+        "covers":  [
+                       "torso",
+                       "arms",
+                       "hands",
+                       "legs",
+                       "feet"
+                   ],
+        "coverage":  100,
+        "encumbrance":  12,
+        "warmth":  30,
+        "material_thickness":  4,
+        "environmental_protection":  5,
+        "//":  "Designed to be able to hold military atomic cells.",
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash magazine",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  2,
+                           "min_volume":  "35 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  40,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "valid_mods":  [
+                           "resized_large",
+                           "resized_small"
+                       ],
+        "flags":  [
+                      "STURDY",
+                      "NO_SALVAGE"
+                  ]
+    },
+    {
+        "id":  "mil_armor",
+        "type":  "ARMOR",
+        "name":  {
+                     "str_sp":  "sentinel armor"
+                 },
+        "description":  "A full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to 5.56x45mm, but may fail against full-power rifle rounds.  It also has two adjustable pouches for various sizes of magazines.",
+        "weight":  "11700 g",
+        "volume":  "11250 ml",
+        "price":  "1750 USD",
+        "price_postapoc":  "1750 cent",
+        "to_hit":  -3,
+        "bashing":  5,
+        "material":  [
+                         "superalloy",
+                         "kevlar",
+                         "leather"
+                     ],
+        "resistance":  {
+                           "bash":  10,
+                           "cut":  20,
+                           "bullet":  35,
+                           "acid":  10,
+                           "heat":  20
+                       },
+        "symbol":  "[",
+        "color":  "dark_gray",
+        "looks_like":  "power_armor_basic",
+        "covers":  [
+                       "torso",
+                       "arms",
+                       "hands",
+                       "legs",
+                       "feet"
+                   ],
+        "coverage":  100,
+        "encumbrance":  24,
+        "warmth":  30,
+        "material_thickness":  4,
+        "environmental_protection":  5,
+        "//":  "Designed to be able to hold military atomic cells.",
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash magazine",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  2,
+                           "min_volume":  "35 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  40,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "valid_mods":  [
+                           "resized_large",
+                           "resized_small"
+                       ],
+        "flags":  [
+                      "STURDY",
+                      "NO_SALVAGE"
+                  ]
+    },
+    {
+        "id":  "hmil_armor",
+        "type":  "ARMOR",
+        "name":  {
+                     "str_sp":  "heavy sentinel armor"
+                 },
+        "description":  "A heavy-duty full-body suit of gray ballistic armor, one size fits most, with separate helmet.  Made from heavy-duty lining with advanced plating, it protects the body rather well against rifle rounds up to 7.62x51mm, but may be too cumbersome for most situations.  It also has two adjustable pouches for various sizes of magazines.",
+        "weight":  "20250 g",
+        "volume":  "13500 ml",
+        "price":  "2000 USD",
+        "price_postapoc":  "20 USD",
+        "to_hit":  -3,
+        "bashing":  5,
+        "material":  [
+                         "superalloy",
+                         "kevlar",
+                         "ceramic"
+                     ],
+        "resistance":  {
+                           "bash":  15,
+                           "cut":  30,
+                           "bullet":  45,
+                           "acid":  15,
+                           "heat":  30
+                       },
+        "symbol":  "[",
+        "color":  "dark_gray",
+        "looks_like":  "power_armor_heavy",
+        "covers":  [
+                       "torso",
+                       "arms",
+                       "hands",
+                       "legs",
+                       "feet"
+                   ],
+        "coverage":  100,
+        "encumbrance":  36,
+        "warmth":  30,
+        "material_thickness":  4,
+        "environmental_protection":  5,
+        "//":  "Designed to be able to hold military atomic cells.",
+        "use_action":  {
+                           "type":  "holster",
+                           "holster_prompt":  "Stash magazine",
+                           "holster_msg":  "You stash your %s.",
+                           "multi":  2,
+                           "min_volume":  "35 ml",
+                           "max_volume":  "1500 ml",
+                           "draw_cost":  40,
+                           "flags":  [
+                                         "MAG_COMPACT",
+                                         "MAG_BULKY"
+                                     ]
+                       },
+        "valid_mods":  [
+                           "resized_large",
+                           "resized_small"
+                       ],
+        "flags":  [
+                      "STURDY",
+                      "NONCONDUCTIVE",
+                      "NO_SALVAGE"
+                  ]
+    },
+    {
+        "id":  "lmil_helm",
+        "type":  "ARMOR",
+        "name":  {
+                     "str_sp":  "light sentinel helmet"
+                 },
+        "description":  "A fairly light full-face ballistic helmet, one size fits most.  Made from a fabric lining with advanced composite plates, it is only rated for fragmentation and pistol-caliber rounds up to .357 Magnum.",
+        "weight":  "1005 g",
+        "volume":  "1 L",
+        "price":  "1600 USD",
+        "price_postapoc":  "16 USD",
+        "to_hit":  -2,
+        "bashing":  2,
+        "material":  [
+                         "superalloy",
+                         "kevlar",
+                         "cotton"
+                     ],
+        "resistance":  {
+                           "bash":  5,
+                           "cut":  10,
+                           "bullet":  25,
+                           "acid":  5,
+                           "heat":  10
+                       },
+        "symbol":  "[",
+        "color":  "dark_gray",
+        "looks_like":  "power_armor_helmet_light",
+        "covers":  [
+                       "head",
+                       "eyes",
+                       "mouth"
+                   ],
+        "coverage":  100,
+        "encumbrance":  12,
+        "warmth":  30,
+        "material_thickness":  4,
+        "environmental_protection":  5,
+        "valid_mods":  [
+                           "resized_large",
+                           "resized_small"
+                       ],
+        "flags":  [
+                      "STURDY",
+                      "NO_SALVAGE"
+                  ]
+    },
+    {
+        "id":  "mil_helm",
+        "type":  "ARMOR",
+        "name":  {
+                     "str_sp":  "sentinel helmet"
+                 },
+        "description":  "A full-face ballistic helmet, one size fits most.  Made with leather lining and advanced composite plates, it provides adequate protection against anything up to 5.56x45mm.",
+        "weight":  "1300 g",
+        "volume":  "1250 ml",
+        "price":  "1750 USD",
+        "price_postapoc":  "1750 cent",
+        "to_hit":  -2,
+        "bashing":  2,
+        "material":  [
+                         "superalloy",
+                         "kevlar",
+                         "leather"
+                     ],
+        "resistance":  {
+                           "bash":  10,
+                           "cut":  20,
+                           "bullet":  35,
+                           "acid":  10,
+                           "heat":  20
+                       },
+        "symbol":  "[",
+        "color":  "dark_gray",
+        "looks_like":  "power_armor_helmet_basic",
+        "covers":  [
+                       "head",
+                       "eyes",
+                       "mouth"
+                   ],
+        "coverage":  100,
+        "encumbrance":  24,
+        "warmth":  30,
+        "material_thickness":  4,
+        "environmental_protection":  5,
+        "valid_mods":  [
+                           "resized_large",
+                           "resized_small"
+                       ],
+        "flags":  [
+                      "STURDY",
+                      "NO_SALVAGE"
+                  ]
+    },
+    {
+        "id":  "hmil_helm",
+        "type":  "ARMOR",
+        "name":  {
+                     "str_sp":  "heavy sentinel helmet"
+                 },
+        "description":  "A heavy-duty full-face ballistic helmet, one size fits most.  Made from heavy-duty lining with advanced plating, it protects the head rather well against rifle rounds up to 7.62x51mm.",
+        "weight":  "2250 g",
+        "volume":  "1500 ml",
+        "price":  "2000 USD",
+        "price_postapoc":  "20 USD",
+        "to_hit":  -2,
+        "bashing":  2,
+        "material":  [
+                         "superalloy",
+                         "kevlar",
+                         "ceramic"
+                     ],
+        "resistance":  {
+                           "bash":  15,
+                           "cut":  30,
+                           "bullet":  45,
+                           "acid":  15,
+                           "heat":  30
+                       },
+        "symbol":  "[",
+        "color":  "dark_gray",
+        "looks_like":  "power_armor_helmet_heavy",
+        "covers":  [
+                       "head",
+                       "eyes",
+                       "mouth"
+                   ],
+        "coverage":  100,
+        "encumbrance":  36,
+        "warmth":  30,
+        "material_thickness":  4,
+        "environmental_protection":  5,
+        "valid_mods":  [
+                           "resized_large",
+                           "resized_small"
+                       ],
+        "flags":  [
+                      "STURDY",
+                      "NO_SALVAGE"
+                  ]
+    },
+    {
+        "id":  "c_power_armor_surv",
+        "type":  "TOOL_ARMOR",
+        "category":  "clothing",
+        "symbol":  "[",
+        "color":  "dark_gray",
+        "looks_like":  "rm13_armor",
+        "name":  {
+                     "str":  "makeshift hydraulic armor"
+                 },
+        "description":  "An incredibly heavy suit of steel and kevlar plates covering a network of hydraulics, driven by pieces of a stripped-down diesel engine jury-rigged to assist the wearer\u0027s movements.  Shrugs off anything up to 5.56x45mm.  When running it will increase your strength and raw speed, allowing you to fire heavy weapons unsupported, plus make it less encumbering to wear, but the motors make things warm and make stealth harder.",
+        "flags":  [
+                      "OVERSIZE",
+                      "STURDY",
+                      "OUTER",
+                      "ALLOWS_NATURAL_ATTACKS",
+                      "COMBAT_NPC_USE",
+                      "ALLOWS_HOOVES"
+                  ],
+        "price":  "500 USD",
+        "price_postapoc":  "50 USD",
+        "material":  [
+                         "steel",
+                         "kevlar_rigid"
+                     ],
+        "weight":  "50 kg",
+        "volume":  "40 L",
+        "to_hit":  -3,
+        "max_charges":  2000,
+        "ammo":  [
+                     "diesel",
+                     "lamp_oil",
+                     "motor_oil",
+                     "jp8"
+                 ],
+        "relic_data":  {
+                           "passive_effects":  [
+                                                   {
+                                                       "has":  "WORN",
+                                                       "condition":  "ACTIVE",
+                                                       "values":  [
+                                                                      {
+                                                                          "value":  "STRENGTH",
+                                                                          "add":  4
+                                                                      },
+                                                                      {
+                                                                          "value":  "SPEED",
+                                                                          "add":  10
+                                                                      }
+                                                                  ],
+                                                       "mutations":  [
+                                                                         "C_MOVE_NOISE"
+                                                                     ]
+                                                   }
+                                               ]
+                       },
+        "charges_per_use":  1,
+        "use_action":  {
+                           "type":  "fireweapon_off",
+                           "target_id":  "c_power_armor_surv_on",
+                           "moves":  100,
+                           "noise":  60,
+                           "success_chance":  2,
+                           "success_message":  "Your makeshift hydraulic armor roars to life, servos kicking into gear!",
+                           "failure_message":  "Your armor sputters but fails to start up.",
+                           "lacks_fuel_message":  "You work your armor\u0027s starter, but nothing happens."
+                       },
+        "covers":  [
+                       "head",
+                       "mouth",
+                       "eyes",
+                       "torso",
+                       "arms",
+                       "hands",
+                       "legs",
+                       "feet"
+                   ],
+        "warmth":  15,
+        "environmental_protection":  3,
+        "encumbrance":  45,
+        "coverage":  95,
+        "material_thickness":  8,
+        "resistance":  {
+                           "bullet":  38
+                       }
+    },
+    {
+        "id":  "shield_welded_surv",
+        "type":  "ARMOR",
+        "name":  {
+                     "str":  "makeshift ballistic pavise"
+                 },
+        "description":  "A heavy shield made from armor plates and kevlar lining rated for 5.56x45mm, welded to a framework that helps distribute the weight.  It leaves you free to operate two-handed weapons, even letting you brace heavy weapons to fire without mounting terrain, but is still absurdly heavy and encumbering.",
+        "weight":  "25 kg",
+        "volume":  "5 L",
+        "price_postapoc":  "5 USD",
+        "to_hit":  -4,
+        "bashing":  16,
+        "material":  [
+                         "steel",
+                         "kevlar_rigid"
+                     ],
+        "symbol":  "[",
+        "color":  "blue",
+        "looks_like":  "shield_welded",
+        "covers":  [
+                       "arm_either",
+                       "leg_either"
+                   ],
+        "coverage":  95,
+        "encumbrance":  45,
+        "material_thickness":  8,
+        "resistance":  {
+                           "bullet":  38
+                       },
+        "techniques":  [
+                           "WBLOCK_3"
+                       ],
+        "flags":  [
+                      "OVERSIZE",
+                      "BELTED",
+                      "ONLY_ONE",
+                      "BLOCK_WHILE_WORN",
+                      "HEAVY_WEAPON_SUPPORT",
+                      "POWERARMOR_COMPATIBLE",
+                      "ALLOWS_TAIL_SNAKE"
+                  ]
+    }
+]

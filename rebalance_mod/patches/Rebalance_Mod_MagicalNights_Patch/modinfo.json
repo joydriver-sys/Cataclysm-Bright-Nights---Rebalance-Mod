@@ -1,0 +1,14 @@
+{
+    "id":  "Rebalance_Mod_MagicalNights_Patch",
+    "name":  "Rebalance Mod: MagicalNights Patch",
+    "authors":  [
+                    "joydriver"
+                ],
+    "description":  "A rebalance patch for the MagicalNights mod.",
+    "type":  "MOD_INFO",
+    "dependencies":  [
+                         "bn",
+                         "MagicalNights"
+                     ],
+    "category":  "misc_additions"
+}

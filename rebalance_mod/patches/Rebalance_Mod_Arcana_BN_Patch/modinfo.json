@@ -1,0 +1,14 @@
+{
+    "id":  "Rebalance_Mod_Arcana_BN_Patch",
+    "name":  "Rebalance Mod: Arcana_BN Patch",
+    "authors":  [
+                    "joydriver"
+                ],
+    "description":  "A rebalance patch for the Arcana_BN mod.",
+    "type":  "MOD_INFO",
+    "dependencies":  [
+                         "bn",
+                         "Arcana"
+                     ],
+    "category":  "misc_additions"
+}

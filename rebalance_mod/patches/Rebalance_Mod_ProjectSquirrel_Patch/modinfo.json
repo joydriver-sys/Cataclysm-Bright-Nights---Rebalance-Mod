@@ -1,0 +1,14 @@
+{
+    "id":  "Rebalance_Mod_Project_Squirrel_Patch",
+    "name":  "Rebalance Mod: Project Squirrel Patch",
+    "authors":  [
+                    "joydriver"
+                ],
+    "description":  "A rebalance patch for the Project Squirrel mod.",
+    "type":  "MOD_INFO",
+    "dependencies":  [
+                         "bn",
+                         "Jake's_Squirrel_mod"
+                     ],
+    "category":  "misc_additions"
+}

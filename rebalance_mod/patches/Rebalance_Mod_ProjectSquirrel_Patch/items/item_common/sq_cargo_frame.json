@@ -1,0 +1,70 @@
+[
+ {
+    "id": "sq_vanguard_skeleton",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "symbol": "#",
+    "color": "dark_gray",
+    "name": { "str": "vanguard exoskeleton" },
+    "looks_like": "survivor_vest",
+    "description": "A military all-weather combat armored exoskeleton capable of storing weapons. A robotic system of sorts that mechanically adds strength to the wearer, with attached Kevlar armor plates that provide moderate defense, and actuators that give a bonus to strength. Power up when used.",
+    "price": "7500 USD",
+    "price_postapoc": "150 USD",
+    "material": [ "steel", "kevlar" ],
+    "weight": "10440 g",
+    "volume": "23000 ml",
+    "storage": "8 L",
+    "ammo": "battery",
+    "max_charges": 500,
+    "initial_charges": 0,
+    "charges_per_use": 1,
+    "use_action": [
+      {
+        "type": "holster",
+        "max_volume": "3750 ml",
+        "min_volume": "300 ml",
+        "multi": 1,
+        "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_AXE", "SHEATH_SPEAR" ],
+        "skills": [ "pistol", "smg", "shotgun", "rifle", "launcher", "archery" ]
+      },
+      {
+        "type": "transform",
+        "msg": "The %s engages.",
+        "target": "sq_vanguard_skeleton_on",
+        "active": true,
+        "need_charges": 1,
+        "need_charges_msg": "The skeleton has run out of power."
+      },
+      { "type": "holster" }
+    ],
+    "covers": [ "torso", "arms", "legs" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 1 } ] } ] },
+    "warmth": 5,
+    "environmental_protection": 3,
+    "coverage": 80,
+    "material_thickness": 4,
+    "encumbrance": 15,
+    "weight_capacity_bonus": "30440 g",
+    "flags": [ "ONLY_ONE", "STURDY", "WATER_FRIENDLY", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "OUTER", "ALLOWS_NATURAL_ATTACKS" ]
+  },
+  {
+    "id": "sq_vanguard_skeleton_on",
+    "type": "TOOL_ARMOR",
+    "copy-from": "sq_vanguard_skeleton",
+    "name": { "str": "vanguard exoskeleton (on)", "str_pl": "vanguard exoskeletons (on)" },
+    "description": "A military all-weather combat armored exoskeleton capable of storing weapons. A robotic system of sorts that mechanically adds strength to the wearer, with Kevlar armor plates that provide decent defense, and actuators that give bonuses to strength. It is currently operational, and is constantly consuming power. Use to stop it from working.",
+    "turns_per_charge": 40,
+    "revert_to": "sq_vanguard_skeleton",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Turn off",
+      "msg": "The exoskeleton disengages.",
+      "target": "sq_vanguard_skeleton"
+    },
+    "covers": [ "torso", "arms", "legs" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 2 } ] } ] },
+    "encumbrance": 15,
+    "weight_capacity_bonus": "50440 g",
+    "flags": [ "ONLY_ONE", "STURDY", "WATER_FRIENDLY", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "OUTER", "ALLOWS_NATURAL_ATTACKS" ]
+  }
+]

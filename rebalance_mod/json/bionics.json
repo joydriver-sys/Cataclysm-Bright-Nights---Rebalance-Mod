@@ -1,0 +1,104 @@
+[
+  {
+    "id": "bio_armor_arms",
+    "type": "bionic",
+    "name": { "str": "Alloy Plating - Arms" },
+    "description": "The flesh on your arms and hands have been surgically replaced by alloy plating.  Provides 3 bash and cut protection, 2 ballistic protection, and can be used in conjunction with bionic martial arts.",
+    "occupied_bodyparts": [ [ "arm_l", 4 ], [ "arm_r", 4 ] ],
+    "bash_protec": [ [ "arm_l", 3 ], [ "arm_r", 3 ], [ "hand_l", 3 ], [ "hand_r", 3 ] ],
+    "cut_protec": [ [ "arm_l", 3 ], [ "arm_r", 3 ], [ "hand_l", 3 ], [ "hand_r", 3 ] ],
+    "bullet_protec": [ [ "arm_l", 3 ], [ "arm_r", 3 ], [ "hand_l", 3 ], [ "hand_r", 3 ] ],
+    "points": 2,
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "bio_armor_eyes",
+    "type": "bionic",
+    "name": { "str": "Protective Lenses" },
+    "description": "Your eye sockets have been surgically sealed with highly protective mirrored lenses and your tear ducts have been re-routed to your mouth.  Provides 2 bash and cut protection, and 7 environmental protection.",
+    "occupied_bodyparts": [ [ "eyes", 1 ] ],
+    "env_protec": [ [ "eyes", 7 ] ],
+    "bash_protec": [ [ "eyes", 2 ] ],
+    "cut_protec": [ [ "eyes", 2 ] ],
+    "points": 1,
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ],
+    "bio_enchantments": [ { "values": [ { "value": "INTIMIDATE", "add": 10 } ] } ]
+  },
+  {
+    "id": "bio_armor_head",
+    "type": "bionic",
+    "name": { "str": "Alloy Plating - Head" },
+    "description": "The flesh on your head has been surgically replaced by alloy plating, protecting both your head and jaw regions.  Provides 3 bash and cut protection, and 2 ballistic protection.",
+    "occupied_bodyparts": [ [ "head", 5 ], [ "mouth", 1 ] ],
+    "bash_protec": [ [ "head", 3 ], [ "mouth", 3 ] ],
+    "cut_protec": [ [ "head", 3 ], [ "mouth", 3 ] ],
+    "bullet_protec": [ [ "head", 3 ], [ "mouth", 3 ] ],
+    "points": 2,
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "bio_armor_legs",
+    "type": "bionic",
+    "name": { "str": "Alloy Plating - Legs" },
+    "description": "The flesh on your legs and feet have been surgically replaced by alloy plating.  Provides 3 bash and cut protection, 2 ballistic protection, and can be used in conjunction with bionic martial arts.",
+    "occupied_bodyparts": [ [ "leg_l", 6 ], [ "leg_r", 6 ], [ "foot_l", 1 ], [ "foot_r", 1 ] ],
+    "bash_protec": [ [ "leg_l", 3 ], [ "leg_r", 3 ], [ "foot_l", 3 ], [ "foot_r", 3 ] ],
+    "cut_protec": [ [ "leg_l", 3 ], [ "leg_r", 3 ], [ "foot_l", 3 ], [ "foot_r", 3 ] ],
+    "bullet_protec": [ [ "leg_l", 3 ], [ "leg_r", 3 ], [ "foot_l", 3 ], [ "foot_r", 3 ] ],
+    "points": 2,
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
+  },
+  {
+    "id": "bio_armor_torso",
+    "type": "bionic",
+    "name": { "str": "Alloy Plating - torso" },
+    "description": "The flesh on your torso has been surgically replaced by alloy plating, protecting it from physical trauma.  Provides 3 bash and cut protection, and 2 ballistic protection.",
+    "occupied_bodyparts": [ [ "torso", 10 ] ],
+    "bash_protec": [ [ "torso", 3 ] ],
+    "cut_protec": [ [ "torso", 3 ] ],
+    "bullet_protec": [ [ "torso", 3 ] ],
+    "points": 2,
+    "flags": [ "BIONIC_NPC_USABLE", "BIONIC_SHOCKPROOF" ]
+  }, 
+    {
+    "id": "bio_dex_enhancer",
+    "type": "bionic",
+    "name": { "str": "Wired Reflexes" },
+    "description": "Your reaction time has been greatly enhanced with bionic nerve stimulators, giving you a +1 bonus to dexterity.",
+    "occupied_bodyparts": [ [ "torso", 6 ], [ "arm_l", 4 ], [ "arm_r", 4 ], [ "leg_l", 8 ], [ "leg_r", 8 ] ],
+    "stat_bonus": [ [ "DEX", 1 ] ],
+    "points": 1,
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_eye_enhancer",
+    "type": "bionic",
+    "name": { "str": "Diamond Cornea" },
+    "description": "Your vision is greatly enhanced, giving you a +1 bonus to perception and fixing any vision problems short of total blindness.",
+    "occupied_bodyparts": [ [ "eyes", 1 ] ],
+    "stat_bonus": [ [ "PER", 1 ] ],
+    "canceled_mutations": [ "HYPEROPIC", "MYOPIC" ],
+    "points": 1,
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_int_enhancer",
+    "type": "bionic",
+    "name": { "str": "Cerebral Booster" },
+    "description": "Your brain has been enhanced with bionic coprocessors, giving you a +1 bonus to intelligence.",
+    "occupied_bodyparts": [ [ "head", 7 ] ],
+    "stat_bonus": [ [ "INT", 1 ] ],
+    "points": 1,
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_str_enhancer",
+    "type": "bionic",
+    "name": { "str": "Muscle Augmentation" },
+    "description": "Your muscular system has been surgically enhanced with myomer fibers, giving you a +1 bonus to strength.",
+    "occupied_bodyparts": [ [ "torso", 6 ], [ "arm_l", 4 ], [ "arm_r", 4 ], [ "leg_l", 8 ], [ "leg_r", 8 ] ],
+    "stat_bonus": [ [ "STR", 1 ] ],
+    "points": 1,
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  }
+]
