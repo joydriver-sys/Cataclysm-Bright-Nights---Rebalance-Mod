@@ -44,14 +44,14 @@ To test the gameplay changes, I rolled two characters and played with the rebala
 
 I recommend playing with:
 
-Cata++
-C.R.I.T. Expansion
-Exotic Ammo Types
-Aftershock
-Project: Packrat
-RPG System
-Arcana and Magic Items
-Magical Nights
+- Cata++
+- C.R.I.T. Expansion
+- Exotic Ammo Types
+- Aftershock
+- Project: Packrat
+- RPG System
+- Arcana and Magic Items
+- Magical Nights
 
 Along with the main Rebalance mod and all of its patch mods. 
 
