@@ -34,7 +34,9 @@ The gameplay intent is for players to be incentivized to engage with Bright Nigh
 
 # Not-changed log
 
-- It should be noted that mutations are completely untouched, along with bionics such as Subdermal Carbon Filament and Active Defense System. This makes post-threshold armor mutations very attractive options for their encumbrance values, and mutants in general have been effectively buffed. 
+- It should be noted that mutations are completely untouched. This makes post-threshold armor mutations very attractive options for their encumbrance values, and mutants in general have been effectively buffed. 
+- Bionics such as Subdermal Carbon Filament and Active Defense System are also untouched, making them more valuable in comparison.
+- Block and dodge is untouched, and therefore more valuable as defensive options.
 
 # Testing
 
@@ -71,7 +73,7 @@ Place this mod in the "mods" folder in the main game directory, and then enable 
 
 - Disassembling milspec turrets drops the wrong kind of gun.
 - Some item descriptions (stat-boosting bionics) are incorrect.
-- Some late-game evolutions should be even more dangerous/deadly, particularly elite military ferals.
+- Some late-game evolutions should be even more dangerous/deadly, particularly elite military ferals, hulks, and brutes.
 - Write an early-game survival guide.
 
 # AI Use Disclosure
