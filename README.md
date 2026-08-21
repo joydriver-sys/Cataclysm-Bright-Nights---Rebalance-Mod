@@ -80,3 +80,7 @@ Place this mod in the "mods" folder in the main game directory, and then enable 
 # AI Use Disclosure
 
 Some changes were executed via Powershell scripts that were written with a local copy of Gemma 4 26B A4B on my personal hardware. No AI-generated code is present in the mod files themselves.
+
+# License
+
+Creative Commons Attribution ShareAlike 3.0
