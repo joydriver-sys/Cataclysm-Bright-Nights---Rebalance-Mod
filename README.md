@@ -34,7 +34,7 @@ The gameplay intent is for players to be incentivized to engage with Bright Nigh
 
 # Not-changed log
 
-- It should be noted that mutations are completely untouched, along with bionics such as Subdermal Carbon Filament and Active Defense System. This makes post-threshold armor mutations very attractive options for their encumbrance values. 
+- It should be noted that mutations are completely untouched, along with bionics such as Subdermal Carbon Filament and Active Defense System. This makes post-threshold armor mutations very attractive options for their encumbrance values, and mutants in general have been effectively buffed. 
 
 # Testing
 
