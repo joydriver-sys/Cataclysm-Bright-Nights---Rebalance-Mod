@@ -65,5 +65,5 @@ For RPG System traits, Tireless and Packrat are both solid picks. Tireless gives
 
 - Disassembling milspec turrets drops the wrong kind of gun.
 - Some item descriptions (stat-boosting bionics) are incorrect.
-- Some late-game evolutions should be even more dangerous/deadly.
+- Some late-game evolutions should be even more dangerous/deadly, particularly elite military ferals.
 - Write an early-game survival guide.
