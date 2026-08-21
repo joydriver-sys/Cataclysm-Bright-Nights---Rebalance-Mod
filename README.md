@@ -61,9 +61,17 @@ For basic traits, I recommend Indefatiguable, Pain Resistant, and Packrat at min
 
 For RPG System traits, Tireless and Packrat are both solid picks. Tireless gives you a lot more stamina that you can use to sprint away from bad engagements, and Packrat allows you to use a much lighter backpack or forgo one altogether, making room for more armor. 
 
+# Installation
+
+Place in the "mods" folder in the main game directory, and then enable in world creation.
+
 # Known Bugs / To Do
 
 - Disassembling milspec turrets drops the wrong kind of gun.
 - Some item descriptions (stat-boosting bionics) are incorrect.
 - Some late-game evolutions should be even more dangerous/deadly, particularly elite military ferals.
 - Write an early-game survival guide.
+
+# AI Use Disclosure
+
+Some changes were executed via Powershell scripts that were written with a local copy of Gemma 4 26B A4B on my personal hardware. No AI-generated code is present in the mod files themselves.
