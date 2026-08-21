@@ -10,7 +10,7 @@ The world you used to live in was a fantastical one. Atomic-powered cars, consum
 
 And yet: all of them have now fallen. The super soldier brigades. The power armored legions. Even the spell-slinging arch-mages. 
 
-As your supplies dwindle, you realize that you'll need to scavenge the remnants of all the disparate wonders your former world had to offer, from the high-tech to the arcane. You clutch your cudgel a little more tightly as you approach the nearest city, and the sound of screams and roars reach your ears. 
+As your supplies dwindle, you realize that you'll need to scavenge the remnants of all the disparate wonders your former world had to offer to survive, from the high-tech to the arcane. You clutch your cudgel a little more tightly as you approach the nearest city, and the sound of screams and roars reach your ears. 
 
 # Description
 
