@@ -60,3 +60,10 @@ I recommend starting with no more than 8 points per stat (distributed however yo
 For basic traits, I recommend Indefatiguable, Pain Resistant, and Packrat at minimum. Thick Skin and Fast Healer will make the early game much, much less punishing. I don't recommend taking the basic mana traits: RPG System allows you to scale up to more than 7000 mana with crazy amounts of regen, so it's just not necessary. 
 
 For RPG System traits, Tireless and Packrat are both solid picks. Tireless gives you a lot more stamina that you can use to sprint away from bad engagements, and Packrat allows you to use a much lighter backpack or forgo one altogether, making room for more armor. 
+
+# Known Bugs / To Do
+
+- Disassembling milspec turrets drops the wrong kind of gun.
+- Some item descriptions (stat-boosting bionics) are incorrect.
+- Some late-game evolutions should be even more dangerous/deadly.
+- Write an early-game survival guide.
