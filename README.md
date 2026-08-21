@@ -63,7 +63,7 @@ For RPG System traits, Tireless and Packrat are both solid picks. Tireless gives
 
 # Installation
 
-Place in the "mods" folder in the main game directory, and then enable in world creation.
+Make sure you're using the latest experimental build of BN, along with the matching experimental build of Cata++. Place this mod in the "mods" folder in the main game directory, and then enable in world creation.
 
 # Known Bugs / To Do
 
