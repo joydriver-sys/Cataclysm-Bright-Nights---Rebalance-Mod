@@ -38,7 +38,7 @@ The gameplay intent is for players to be incentivized to engage with Bright Nigh
 
 # Testing
 
-To test the gameplay changes, I rolled two characters and played with the rebalance mods enabled. Each of them had 8 in all stats, and the following traits: Indefatiguable, Pain Resistant, Scout, Packrat, Strong Back. The first character was a basic Survivor, and died to a small mob of zombies in late Spring. The second character was a HazMat, and has survived to early fall so far. Based on these runs, I judged the changes to be quite challenging, but very playable. 
+To test the gameplay changes, I rolled two characters and played with the rebalance mods enabled. Each of them had 8 in all stats, and the following traits: Indefatiguable, Pain Resistant, Scout, Packrat, Strong Back. The first character was a basic Survivor, and died to a small mob of zombies in late Spring. The second character was a HazMat, and has survived to early fall so far (albeit with some VERY close calls and lucky finds). Based on these runs, I judged the changes to be quite challenging, but very playable. 
 
 # Recommended Settings and Content Mods
 
